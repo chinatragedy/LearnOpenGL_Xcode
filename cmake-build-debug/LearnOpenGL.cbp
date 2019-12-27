@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LearnOpenGL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LearnOpenGL">
+				<Option output="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/LearnOpenGL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Camera"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/GLErrorCheck"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Lighting"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Materials"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Mesh"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Model"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Shader"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/StbImage"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Texture"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Transform"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 LearnOpenGL"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LearnOpenGL/fast">
+				<Option output="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/LearnOpenGL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Camera"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/GLErrorCheck"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Lighting"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Materials"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Mesh"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Model"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Shader"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/StbImage"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Texture"/>
+					<Add directory="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Transform"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 LearnOpenGL/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Camera/Camera.cpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Camera/Camera.hpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/GLErrorCheck/GLErrorCheck.cpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/GLErrorCheck/GLErrorCheck.hpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Glad/glad.c">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Lighting/DirectionLight.cpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Lighting/DirectionLight.hpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Lighting/PointLight.cpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Lighting/PointLight.hpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Lighting/Spotlight.cpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Lighting/Spotlight.hpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Materials/Materials.cpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Materials/Materials.hpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Mesh/Mesh.cpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Mesh/Mesh.hpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Model/Model.cpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Model/Model.hpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Shader/Shader.cpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Shader/Shader.hpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/StbImage/stb_image.h">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Texture/Texture.cpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Texture/Texture.hpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Transform/Transform.cpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Common/Transform/Transform.hpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/HelloTriangle/hello_triangle.cpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/LearnOpenGL/main.cpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/Test/main.cpp">
+			<Option target="LearnOpenGL"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_XCode_Projects/LearnOpenGL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
